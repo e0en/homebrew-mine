@@ -4,7 +4,7 @@ require 'formula'
 class Cppzmq < Formula
   homepage 'https://github.com/zeromq/cppzmq'
   url 'https://github.com/zeromq/cppzmq.git'
-  version '0.0.1-brew'
+  version '4.3.0-brew'
 
   depends_on 'cmake' => :build
   depends_on 'zeromq'
