@@ -7,7 +7,7 @@ class Cppzmq < Formula
   version '0.0.1-brew'
 
   depends_on 'cmake' => :build
-  depends_on 'https://raw.githubusercontent.com/Homebrew/homebrew-core/3f1b5ba3268902470fa6dce988588e4a8acde889/Formula/zeromq.rb'
+  depends_on 'zeromq'
 
   def install
       system "echo '#{prefix}'"
